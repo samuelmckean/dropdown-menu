@@ -1,0 +1,25 @@
+.dropdown {
+  width: 10em;
+}
+
+.dropdown .title {
+  width: 100%;
+}
+
+.dropdown .menu {
+  transition: max-height .5s ease-out;
+  max-height: 20em;
+  overflow: hidden;
+}
+
+.dropdown .menu .option:hover {
+  background: blue;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.pointer.hide {
+  max-height: 0;
+}
